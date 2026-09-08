@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://icon.svg" id="1_icon"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 48.0
+offset_top = 40.0
+offset_right = 448.0
+offset_bottom = 76.0
+text = "deep-catch"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+texture = ExtResource("1_icon")

@@ -1,0 +1,12 @@
+# Godot 4+ engine cache
+.godot/
+
+# Imported translations (generated from CSV)
+*.translation
+
+# Legacy export config
+export.cfg
+
+# build/web/ and export_presets.cfg are deliberately NOT ignored:
+# Cloudflare Pages' build image has no Godot binary, so the exported
+# build ships in git. See plans/T0.2-repo-and-deploy.md §7.

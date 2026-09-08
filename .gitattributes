@@ -1,0 +1,5 @@
+# core.autocrlf is true on this machine. These are the deployed build artifacts —
+# any line-ending conversion would corrupt them.
+*.wasm binary
+*.pck binary
+*.png binary
